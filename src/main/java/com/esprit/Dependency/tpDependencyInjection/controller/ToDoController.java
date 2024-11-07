@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class ToDoController {
 	@Autowired
-	ToDoService toDoService
+	ToDoService toDoService;
 
 	public List<String> getCoursesList() {
 		return toDoService.getCoursesList();
